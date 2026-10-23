@@ -15,6 +15,10 @@ quick_test.py            Quick test: verifies headline statistics from bundled o
 requirements.txt         Pinned dependencies (Python 3.12)
 scripts/                 Analysis scripts (05-24 series, see below)
 outputs/                 Released result files (CSV) supporting the manuscript numbers
+sources/                 Cited source files (Table 1/2 notes, figure captions):
+                         final_reservoir_metrics.csv, final_clustered_model_summary.csv,
+                         final_clustered_comparisons.csv, cohort65.csv, metadata/splits65.json,
+                         ext02_aux_increment_audit.csv
 protocols/               ext01-ext03 protocols logged before execution
 ```
 
@@ -60,6 +64,10 @@ No training is performed; the test runs in seconds.
 | Pretrain-fine-tune vs matched local continuation (Fig. 6) | `outputs/ext03_pretrain_vs_local_ft.csv` |
 | High-flow Panel C hit rates | `outputs/ext03_s4_panelc.csv` |
 | Drift quantities 0.32 pp / +0.45 pp | `outputs/ext03_drift_audit.csv` |
+| Table 1 and Figs. 2-4 (frozen primary results) | `sources/final_clustered_model_summary.csv`, `sources/final_reservoir_metrics.csv` |
+| Table 2 (paired differences, HUC4 cluster) | `sources/final_clustered_comparisons.csv` |
+| Fig. 1 (cohort design) | `sources/cohort65.csv`, `sources/metadata/splits65.json` |
+| Table 1 auxiliary-feature increment | `sources/ext02_aux_increment_audit.csv` |
 
 `outputs/superseded/` holds a superseded sensitivity file kept for provenance only.
 

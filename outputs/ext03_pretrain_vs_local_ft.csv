@@ -1,0 +1,5 @@
+task,contrast,res_eq_pt,res_eq_ci,p_raw,holm_p
+h1,pretrain_ft - local_ft_only,1.35,"[0.04, 2.69]",0.0752,0.075
+h3,pretrain_ft - local_ft_only,1.46,"[0.89, 2.11]",0.0001,0.0
+h7,pretrain_ft - local_ft_only,1.21,"[0.41, 2.30]",0.0179,0.036
+v7,pretrain_ft - local_ft_only,1.62,"[0.75, 2.64]",0.0085,0.026

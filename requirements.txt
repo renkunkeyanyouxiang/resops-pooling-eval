@@ -1,0 +1,5 @@
+# Runtime dependencies for the review package, pinned to the build environment
+# Build environment: Windows x64, Python 3.12
+lightgbm==4.7.0
+numpy==2.5.3
+pandas==3.0.6

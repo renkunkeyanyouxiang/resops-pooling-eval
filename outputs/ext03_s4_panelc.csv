@@ -1,0 +1,4 @@
+task,model,n_reservoirs,frozen_fixed_count_rel_bias_pct,reconstructed_q90_rel_bias_pct,delta_rel_bias_pp,frozen_fixed_count_hit_pct,reconstructed_q90_hit_pct,delta_hit_pp,reconstructed_q90_false_alarm_pct,definition
+h1,Local LightGBM A,50,-20.11,-20.13,-0.01,75.61,76.11,0.5,1.26,S4 Panel C / manuscript v8.13
+h1,Shared LightGBM A,50,-18.63,-18.63,-0.0,76.63,77.11,0.48,1.42,S4 Panel C / manuscript v8.13
+h1,Locked baseline,50,-7.12,-7.13,-0.0,79.72,80.25,0.53,2.5,S4 Panel C / manuscript v8.13
